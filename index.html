@@ -19,15 +19,20 @@
 <body>
 
   <div class="ui pointing menu">
-    <a class="active item">
-      Home
+    <a class="active item" onclick="app.bookList.render()">
+      Search Page
     </a>
-    <a class="item">
-      Back
-    </a>
-    <a class="item">
-      Next
-    </a>
+    <a onclick="app.bookList.renderSaved()" class="item">View Saved Books</a>
+    <div class="ui right menu buttons">
+      <button id="back" class="ui icon labeled button">
+        <i class="left chevron icon"></i>
+        Back
+      </button>
+      <button id="next" class="ui right labeled icon button">
+        <i class="right chevron icon"></i>
+        Next
+      </button>
+    </div>
     <div class="right menu">
       <div class="item">
         <div class="ui transparent icon input">
@@ -38,7 +43,7 @@
     </div>
   </div>
 
-  <div id="books-list" class="ui link cards">
+  <div id="books-list" class="ui special link cards container">
   <!-- appending books here -->
   </div>
 
