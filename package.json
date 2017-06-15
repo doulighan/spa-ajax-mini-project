@@ -1,0 +1,22 @@
+{
+  "name": "spa-ajax-mini-project",
+  "version": "1.0.0",
+  "description": "Today, we'll be building a mini Single Page Application (SPA, every interaction is handled asynchronously, the browser is never refreshed) to explore the power of asynchronous request (Ajax) and how they can benefit the user experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doulighan/spa-ajax-mini-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doulighan/spa-ajax-mini-project/issues"
+  },
+  "homepage": "https://github.com/doulighan/spa-ajax-mini-project#readme",
+  "dependencies": {
+    "semantic-ui": "^2.2.10"
+  }
+}
