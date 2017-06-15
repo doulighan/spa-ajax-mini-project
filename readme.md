@@ -2,10 +2,10 @@
 Today, we'll be building a mini Single Page Application (SPA, every interaction is handled asynchronously, the browser is never refreshed) to explore the power of asynchronous request (Ajax) and how they can benefit the user experience.
 
 ## Project Guidelines
-Find an API of interest which does not require oAuth authentication and supports [Cross-origin resource sharing](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
+Find an API of interest which does not require [OAuth](https://en.wikipedia.org/wiki/OAuth) authentication and supports [Cross-origin resource sharing (CORS)](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing).
 
 ## Getting Started
-1. Clone this repository [Boilerplate folder](http://github.com)
+1. Clone this repository [Boilerplate folder](https://github.com/learn-co-curriculum/spa-ajax-mini-project)
 2. Add your Javascript code to the lib folder and try to structure your code following Object Oriented and Component patterns.
 
 ## Project Requirements
